@@ -12,11 +12,30 @@
     font-size: 16 px;
     font-weight: 400;
   }
-  principal{
+  .principal{
     align-items: center;
     text-align: center;
   }
-  container__botão{
+  .container__botão{
     text-decoration: none;
     margin-bottom: 1cm;
   }
+  .container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+  }
+  .container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .container__imagem {
+    margin: 0 6em;
+  }
+  .secundario__imagem {
+    width: 80%;
+  }
+  .secundario {
+    align-items: center;
+    margin: 0 10em;
+  }
+  .descricao
