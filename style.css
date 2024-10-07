@@ -4,3 +4,19 @@
     --botão azul: #1676f7
     --cor-de-fundo: #00030c
 }
+ :root{
+    __font-principal: "Inter";
+ }
+  body{ 
+    font-family: var(__fonte-principal);
+    font-size: 16 px;
+    font-weight: 400;
+  }
+  principal{
+    align-items: center;
+    text-align: center;
+  }
+  container__botão{
+    text-decoration: none;
+    margin-bottom: 1cm;
+  }
